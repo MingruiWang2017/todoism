@@ -11,7 +11,10 @@ else:
 
 
 class BaseConfig(object):
+    TODOISM_LOCALES = ['en_US', 'zh_Hans_CN']  # 区域列表
     TODOISM_ITEM_PER_PAGE = 20
+
+    BABEL_DEFAULT_LOCALE = TODOISM_LOCALES[0]
 
     SECRET_KEY = os.getenv('SECRET_KEY', 'A secret string')
 
