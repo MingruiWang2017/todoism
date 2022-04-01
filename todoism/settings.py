@@ -16,6 +16,8 @@ class BaseConfig(object):
 
     BABEL_DEFAULT_LOCALE = TODOISM_LOCALES[0]
 
+    # SERVER_NAME = 'todoism.dev:5000'  # 开启子域名时，设置host后使用
+
     SECRET_KEY = os.getenv('SECRET_KEY', 'A secret string')
 
     SQLALCHEMY_TRACK_MODIFICATIONS = False

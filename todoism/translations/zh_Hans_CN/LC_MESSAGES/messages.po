@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-30 12:09+0800\n"
+"POT-Creation-Date: 2022-04-01 19:06+0800\n"
 "PO-Revision-Date: 2022-03-30 11:47+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_Hans_CN\n"
@@ -18,19 +18,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: todoism/__init__.py:57
+#: todoism/__init__.py:62
 msgid "Bad Request"
 msgstr "请求无效"
 
-#: todoism/__init__.py:61
+#: todoism/__init__.py:66
 msgid "Forbidden"
 msgstr "禁止访问"
 
-#: todoism/__init__.py:65
+#: todoism/__init__.py:77
 msgid "Page Not Found"
 msgstr "页面未找到"
 
-#: todoism/__init__.py:69
+#: todoism/__init__.py:93
 msgid "Server Error"
 msgstr "服务器错误"
 
@@ -52,7 +52,7 @@ msgstr "退出成功。"
 
 #: todoism/blueprints/auth.py:52
 msgid "Witness something truly majestic"
-msgstr "见识以下真正雄伟的景色"
+msgstr "见识一下真正雄伟的景色"
 
 #: todoism/blueprints/auth.py:53
 msgid "Help a complete stranger"
